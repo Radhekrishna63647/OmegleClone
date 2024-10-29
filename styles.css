@@ -29,3 +29,20 @@ video {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+video {
+    width: 45%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #000;
+}
+
+.chat-container {
+    text-align: center;
+    margin-top: 20px;
+}
