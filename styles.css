@@ -46,3 +46,51 @@ video {
     text-align: center;
     margin-top: 20px;
 }
+/* Body styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+/* Video container styling */
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+video {
+    width: 45%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #000;
+}
+
+/* Chat container styling */
+.chat-container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#chat-box {
+    height: 200px;
+    border: 1px solid #ccc;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#message {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
